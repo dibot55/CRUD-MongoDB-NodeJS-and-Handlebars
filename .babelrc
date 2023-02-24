@@ -1,0 +1,8 @@
+{
+    "presets": [
+        "@babel/preset-env" // Permite ejecutar el codigo con la sintaxis nueva y compilarla despues
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime" // Para que arranque el codigo de producción "dist"
+    ]
+}

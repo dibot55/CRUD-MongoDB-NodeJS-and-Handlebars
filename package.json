@@ -1,0 +1,29 @@
+{
+  "name": "crud",
+  "version": "0.0.1",
+  "description": "Crud en Nodejs con MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./src/index.js --exec babel-node",
+    "production": "babel src -d dist && ncp src/views dist/views && ncp src/public dist/public",
+    "start": "node dist/index.js"
+  },
+  "author": "dibot55",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "mongoose": "^6.9.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20",
+    "ncp": "^2.0.0"
+  }
+}

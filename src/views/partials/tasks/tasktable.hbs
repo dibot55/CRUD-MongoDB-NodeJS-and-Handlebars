@@ -1,0 +1,52 @@
+{{#if tasks}} <!--Si hay tareas entonces muestra la tabla-->
+
+    <!-- Lista de tareas -->
+<!--Lista los campos almacenados en mongoDB en forma de objeto de JavaScript--->
+<table class="table">
+    <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Descripción</th>
+            <th>Operaciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {{#each tasks}}<!--Ciclo for del handlebars-->
+        <tr>
+            <td class="titletable">{{title}}</td>
+            <td>{{description}}</td>
+            <td>
+                {{#if done}} <!--Condicional en handlebars-->
+                    <a 
+                    href="/task/{{_id}}/toggledone"
+                    class="button-38"
+                    >Sin Terminar</a>
+                {{else}}
+                    <a 
+                    href="/task/{{_id}}/toggledone"
+                    class="button-38"
+                    >Terminado</a>
+                {{/if}}
+                <a 
+                href="/task/{{_id}}/edit"
+                class="button-38"
+                >Editar</a>
+                <a href="/task/{{_id}}/delete"
+                class="button-38"
+                >Borrar</a>
+            </td>
+        </tr>
+
+        {{/each}}
+    </tbody>
+</table>
+
+{{else}} <!--No hay tareas aún-->
+    
+    <div class="center">
+        <h1>No hay tareas aún</h1>
+        <img src="/icon.svg" alt="icon.svg" class="svgimg">
+    </div>
+    
+{{/if}}

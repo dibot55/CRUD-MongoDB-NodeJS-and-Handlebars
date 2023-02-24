@@ -1,0 +1,8 @@
+# Modulos
+node_modules
+# Variables de entorno
+.env
+# Codigo de producción
+dist
+# Package lock
+package-lock.json

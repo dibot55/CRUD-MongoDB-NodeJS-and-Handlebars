@@ -1,0 +1,193 @@
+/* NO PONGAS ; despues de cada selector BABEL CRASHEA AL RENDERIZARLO */
+:root{
+    --colorLightBlue: #96BDC6;
+    --colorCambridgeBlue: #81968F;
+    --colorDun: #CFB9A5;
+    --colorPaleDogwood: #E8CCBF;
+    --colorPalePurple: #E9D6EC;
+    --colorDunHover: #dbcdc0;
+    --textColor: #525f5b;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+/* Barra de Navegación */
+.navbar{
+    background-color: var(--colorDun);
+    color: var(--textColor);
+}
+
+.navbarul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbarli{
+    float: left;
+}
+
+.navbara{
+    display: block;
+    padding: 14px 16px;
+    color: var(--textColor);
+    text-align: left;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 1.5em;
+}
+
+.navbara:hover{
+    background-color: var(--colorDunHover);
+}
+
+/* Formulario "Agregar Tarea"*/
+.formtask{
+    background-color: var(--colorPalePurple);
+    border-radius: 30;
+    width: 330px;
+    height: 300px;
+}
+
+.taskadd{
+    text-align: left;
+    color: var(--textColor);
+    margin: 10px;
+    padding: 5px;
+    border: none;
+}
+
+.cont-task-div{
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+    padding: 5px;
+    width: 300px;
+}
+
+.label-task{
+    border: none;
+    margin: 10px;
+    padding: 0;
+    border: none;
+    display: flex;
+}
+
+.input-text-tlt{
+    margin: 0px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-text-dsc{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    width: 290px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Buttton Añadir */
+.button-38 {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+.button-38:hover {
+    background-color: rgb(249,250,251);
+}
+
+.button-38:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+    box-shadow: none;
+}
+
+.btn-div-add{
+    width: 510px;
+    justify-content: center;
+    display: flex;
+    margin: 10px ;
+}
+
+/* Tabla */
+.container{
+    display: flex;
+}
+
+.table{
+    margin: 10px;
+}
+
+.titletable{
+    height: 55px;
+}
+
+.svgimg{
+    height: 500px;
+    width: 500px;
+}
+
+/* Editar */
+
+.edittask{
+    margin: 10px;
+}
+
+.inputtlt{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    width: 290px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputdsc{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    width: 290px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-edit-update{
+    width: 330px;
+    justify-content: center;
+    align-content: baseline;
+    display: flex;
+}
+

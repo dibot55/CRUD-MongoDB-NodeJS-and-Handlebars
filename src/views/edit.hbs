@@ -1,0 +1,27 @@
+<div class="formtask">
+    <form action="/task/{{tasksId._id}}/edit" method="POST">
+    <h2 class="taskadd">Editar Registro</h2>
+    <div class="edittask">
+    <label for="title">Titulo</label>
+    <input
+        type="text"
+        id="title"
+        name="title"
+        class="inputtlt"
+        placeholder="Nombre de la tarea"
+        value="{{tasksId.title}}"
+    />
+    <label for="description">Descripción</label>
+    <textarea
+        id="description"
+        name="description"
+        class="inputdsc"
+        placeholder="Descripción"
+        rows="3"
+    >{{tasksId.description}}</textarea>
+    </div>
+    <div class="btn-edit-update">
+    <button class="button-38">Actualizar</button>
+    </div>
+</form>
+</div>
