@@ -29,7 +29,6 @@ Si quieres ejecutar el proyecto debes seguir los siguientes pasos despues de clo
 
  ```
  npm run production
- 
  ```
 
 <div align = "center"> 
@@ -42,21 +41,18 @@ Si quieres ejecutar el proyecto debes seguir los siguientes pasos despues de clo
 
 ```
 npm run start
-
 ```
 
 ó
 
 ```
 node dist/index.js
-
 ```
 
 - En caso de que quieras modificar el proyecto debes correrlo con el siguiente comando:
 
 ```
 npm run test
-
 ```
 
 Si el proyecto se ejecuta correctamente deberias ver el siguiente mensaje en la terminal.
