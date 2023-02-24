@@ -3,7 +3,7 @@
 ![Crud Imagen](./img/crud.png)
 
 ## Descripción
----
+
 Este repositorio es un CRUD con MongoDB y NodeJs usando el Template Engine de Express (Handlebars).
 - Se utilizo un compilador de JavaScript llamado Babel, que convierte codigo nuevo de ES6 a codigo legacy antes de ser ejecutado.
 
@@ -15,7 +15,7 @@ Este repositorio es un CRUD con MongoDB y NodeJs usando el Template Engine de Ex
 </div>
 
 ## Instrucciones
----
+
 Si quieres ejecutar el proyecto debes seguir los siguientes pasos despues de clonar el repositorio.
 
 - Crear un archivo .env y agregar la variable de entorno DB_URI y agregar la uri de tu base de datos con MongoDB
