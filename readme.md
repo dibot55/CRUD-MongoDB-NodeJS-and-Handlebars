@@ -48,7 +48,6 @@ npm run start
 ó
 
 ```
-
 node dist/index.js
 
 ```
@@ -56,7 +55,6 @@ node dist/index.js
 - En caso de que quieras modificar el proyecto debes correrlo con el siguiente comando:
 
 ```
-
 npm run test
 
 ```
