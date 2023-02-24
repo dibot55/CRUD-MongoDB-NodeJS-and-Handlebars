@@ -27,7 +27,10 @@ Si quieres ejecutar el proyecto debes seguir los siguientes pasos despues de clo
 
 - Ejecutar el siguiente comando que creara una carpeta llamada "dist" que contendra el codigo legacy para produccion:
 
- ```npm run production```
+ ```
+ npm run production
+ 
+ ```
 
 <div align = "center"> 
 
@@ -37,15 +40,26 @@ Si quieres ejecutar el proyecto debes seguir los siguientes pasos despues de clo
 
 - Ejecutar el siguiente comando, que ejecutara el proyecto:
 
-```npm run start```
+```
+npm run start
+
+```
 
 ó
 
-```node dist/index.js```
+```
+
+node dist/index.js
+
+```
 
 - En caso de que quieras modificar el proyecto debes correrlo con el siguiente comando:
 
-```npm run test```
+```
+
+npm run test
+
+```
 
 Si el proyecto se ejecuta correctamente deberias ver el siguiente mensaje en la terminal.
 
