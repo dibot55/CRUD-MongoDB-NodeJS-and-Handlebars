@@ -18,6 +18,12 @@ Este repositorio es un CRUD con MongoDB y NodeJs usando el Template Engine de Ex
 
 Si quieres ejecutar el proyecto debes seguir los siguientes pasos despues de clonar el repositorio.
 
+- Ejecutar el siguiente comando:
+
+ ```
+ $ npm install
+ ```
+
 - Crear un archivo .env y agregar la variable de entorno DB_URI y agregar la uri de tu base de datos con MongoDB
 <div align = "center"> 
 
