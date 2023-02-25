@@ -34,7 +34,7 @@ Si quieres ejecutar el proyecto debes seguir los siguientes pasos despues de clo
 - Ejecutar el siguiente comando que creara una carpeta llamada "dist" que contendra el codigo legacy para produccion:
 
  ```
- $ npm run production
+ $ npm run build
  ```
 
 <div align = "center"> 
