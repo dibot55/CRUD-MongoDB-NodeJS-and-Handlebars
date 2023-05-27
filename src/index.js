@@ -1,5 +1,5 @@
 import "./config"; // Variables de entorno
-import app from "./app"; // Template Engine Handlebars
+import app from "./app"; // Configuracion de Express
 import "./database"; // Conexión a MongoDB
 
 // Servidor

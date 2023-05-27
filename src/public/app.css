@@ -1,12 +1,12 @@
 /* NO PONGAS ; despues de cada selector BABEL CRASHEA AL RENDERIZARLO */
 :root{
-    --colorLightBlue: #96BDC6;
+    --colorLightBlue: #777777;
     --colorCambridgeBlue: #81968F;
-    --colorDun: #CFB9A5;
-    --colorPaleDogwood: #E8CCBF;
-    --colorPalePurple: #E9D6EC;
-    --colorDunHover: #dbcdc0;
-    --textColor: #525f5b;
+    --colorDun:#333232;
+    --colorPaleDogwood: #ebebeb;
+    --colorPalePurple: #494949;
+    --colorDunHover: #6e6e6e;
+    --textColor: #cfcfcf;
 }
 
 body{
@@ -14,6 +14,7 @@ body{
     margin: 0;
     border: none;
     padding: 0;
+    background-color: #242424;
 }
 
 /* Barra de Navegación */
@@ -77,6 +78,7 @@ body{
     padding: 0;
     border: none;
     display: flex;
+    color: var(--textColor);
 }
 
 .input-text-tlt{
@@ -143,6 +145,7 @@ body{
 /* Tabla */
 .container{
     display: flex;
+    color: var(--textColor);
 }
 
 .table{
